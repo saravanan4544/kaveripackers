@@ -1,0 +1,21 @@
+/* Compact, intentional vertical rhythm across the site. */
+.hero-new { padding: 56px 0 62px; }
+.section { padding: 88px 0; }
+.section-intro { margin-bottom: 36px; }
+.brand-story { padding: 76px 0; }
+.steps, .faq, .principles, .move-advice, .truck-section, .seo-content { padding: 84px 0; }
+.final-cta { padding: 64px 0; }
+.section-intro, .hero-layout, .story-layout, .coverage-layout, .faq-grid, .cta-layout, .about-layout, .contact-layout-new, .truck-layout, .seo-content-grid { gap: 64px; }
+.visual-note { left: 18px; bottom: 18px; border-radius: 8px; }
+
+@media (max-width: 850px) {
+  .section-intro, .hero-layout, .story-layout, .coverage-layout, .faq-grid, .cta-layout, .about-layout, .contact-layout-new, .truck-layout, .seo-content-grid { gap: 36px; }
+}
+
+@media (max-width: 620px) {
+  .hero-new { padding: 34px 0 46px; }
+  .section, .brand-story, .steps, .faq, .principles, .move-advice, .truck-section, .seo-content { padding: 60px 0; }
+  .final-cta { padding: 56px 0; }
+  .section-intro { margin-bottom: 28px; }
+  .visual-note { left: 12px; bottom: 12px; }
+}
